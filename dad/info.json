@@ -1,0 +1,7 @@
+{
+    "author" : ["tarshaan"],
+    "install_msg" : "Install only on windcord",
+    "name" : "noodledad",
+    "short" : "noodledad's general cogs",
+    "description" : "noodledad's all-channels general cogs"   
+}
