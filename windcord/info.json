@@ -1,0 +1,7 @@
+{
+    "author" : ["tarshaan"],
+    "install_msg" : "Install only on windcord",
+    "name" : "noodledad",
+    "short" : "noodledad's windy cogs",
+    "description" : "noodledad's wind only cogs"   
+}
