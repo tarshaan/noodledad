@@ -44,7 +44,7 @@ class Windcord(commands.Cog):
     @commands.command()
     async def dragonform(self, ctx):
         """Dragon Entry Form"""
-        await ctx.send("<https://docs.google.com/forms/d/e/1FAIpQLSddR6FWG6GC7cNauzlLiiAxlY9g3SyyBb3PaLe1UC3Jefojrw/viewform?c=0&w=1>")
+        await ctx.send("<https://docs.google.com/forms/d/e/1FAIpQLSddR6FWG6GC7cNauzlLiiAxlY9g3SyyBb3PaLe1UC3Jefojrw/viewform>")
     
     @commands.command()
     async def payout(self, ctx):
