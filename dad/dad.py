@@ -24,7 +24,7 @@ class Noodledad(commands.Cog):
     @commands.command(pass_context=True)
     async def venue(self, ctx):
     	"""Dad gives you a venue to grind"""
-    	venues = ["Training Fields", "Woodland Path", "Scorched Forest","Sandswept Delta","Silk-Strewn Wreckage","Blooming Grove", "Forgotten Cave", "Bamboo Falls", "Thunderhead Savanna", "Redrock Cove", "Waterway", "Arena", "Volcanic Vents", "Rainsong Jungle", "Boreal Wood", "Crystal Pools", "Harpy's Roost", "Ghostlight Ruins", "Mire", "Kelp Beds", "Golem Workshop", "Forbidden Portal"]
+    	venues = ["Training Fields", "Woodland Path","Scorched Forest","Boneyard","Sandswept Delta","Silk-Strewn Wreckage","Blooming Grove", "Forgotten Cave", "Bamboo Falls", "Thunderhead Savanna", "Redrock Cove", "Waterway", "Arena", "Volcanic Vents", "Rainsong Jungle", "Boreal Wood", "Crystal Pools", "Harpy's Roost", "Ghostlight Ruins", "Mire", "Kelp Beds", "Golem Workshop", "Forbidden Portal"]
     	await ctx.send(random.choice(venues))
 
     @commands.command(pass_context=True)
