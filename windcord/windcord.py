@@ -45,11 +45,6 @@ class Windcord(commands.Cog):
     async def dragonform(self, ctx):
         """Dragon Entry Form"""
         await ctx.send("<https://docs.google.com/forms/d/e/1FAIpQLSddR6FWG6GC7cNauzlLiiAxlY9g3SyyBb3PaLe1UC3Jefojrw/viewform>")
-    
-    @commands.command()
-    async def payout(self, ctx):
-        """Average Exalt Payout"""
-        await ctx.send("https://cdn.discordapp.com/attachments/1177437614446481428/1177437815873744987/MON_EY.png")
 
     @commands.command()
     async def savedom(self, ctx):
